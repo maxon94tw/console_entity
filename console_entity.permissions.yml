@@ -1,0 +1,22 @@
+add console entity entities:
+  title: 'Create new Console entity entities'
+
+administer console entity entities:
+  title: 'Administer Console entity entities'
+  description: 'Allow to access the administration form to configure Console entity entities.'
+  restrict access: true
+
+delete console entity entities:
+  title: 'Delete Console entity entities'
+
+edit console entity entities:
+  title: 'Edit Console entity entities'
+
+view published console entity entities:
+  title: 'View published Console entity entities'
+
+view unpublished console entity entities:
+  title: 'View unpublished Console entity entities'
+
+permission_callbacks:
+  - \Drupal\console_entity\ConsoleEntityPermissions::generatePermissions

@@ -1,0 +1,10 @@
+entity.console_entity.add_form:
+  route_name: entity.console_entity.add_page
+  title: 'Add Console entity'
+  appears_on:
+    - entity.console_entity.collection
+entity.console_entity_type.add_form:
+  route_name: entity.console_entity_type.add_form
+  title: 'Add Console entity type'
+  appears_on:
+    - entity.console_entity_type.collection

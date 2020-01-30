@@ -1,0 +1,5 @@
+name: 'Console entity'
+type: module
+description: 'My custom content entity with drupal console'
+core: 8.x
+package: 'Custom'
